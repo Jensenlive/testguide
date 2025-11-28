@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>测试工具 - 软件测试专家</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tools.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <i class="fas fa-bug"></i>
+                    <span>测试专家</span>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="tutorials.html">测试教程</a></li>
+                    <li><a href="tools.html" class="active">测试工具</a></li>
+                    <li><a href="cases.html">案例展示</a></li>
+                    <li><a href="blog.html">技术博客</a></li>
+                    <li><a href="about.html">关于我们</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 页面标题 -->
+    <section class="page-header">
+        <div class="container">
+            <h1>测试工具</h1>
+            <p>精选主流测试工具，提升测试效率</p>
+        </div>
+    </section>
+
+    <!-- 工具展示 -->
+    <section class="tools-section">
+        <div class="container">
+            <!-- UI自动化工具 -->
+            <div class="tools-category">
+                <h2><i class="fas fa-desktop"></i> UI自动化测试工具</h2>
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <div class="tool-icon" style="background: linear-gradient(135deg, #43cea2 0%, #185a9d 100%);">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>Selenium</h3>
+                        <p class="tool-desc">最流行的Web UI自动化测试工具，支持多种编程语言和浏览器</p>
+                        <ul class="tool-features">
+                            <li><i class="fas fa-check"></i> 跨浏览器支持</li>
+                            <li><i class="fas fa-check"></i> 多语言支持</li>
+                            <li><i class="fas fa-check"></i> 开源免费</li>
+                            <li><i class="fas fa-check"></i> 社区活跃</li>
+                        </ul>
+                        <div class="tool-tags">
+                            <span class="tag">Web测试</span>
+                            <span class="tag">开源</span>
+                        </div>
+                        <a href="https://www.selenium.dev/" target="_blank" class="tool-link">访问官网 <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-icon" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Cypress</h3>
+                        <p class="tool-desc">现代化的前端测试工具，快速、可靠且易于使用</p>
+                        <ul class="tool-features">
+                            <li><i class="fas fa-check"></i> 实时重载</li>
+                            <li><i class="fas fa-check"></i> 时间旅行调试</li>
+                            <li><i class="fas fa-check"></i> 自动等待</li>
+                            <li><i class="fas fa-check"></i> 截图和视频</li>
+                        </ul>
+                        <div class="tool-tags">
+                            <span class="tag">Web测试</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <a href="https://www.cypress.io/" target="_blank" class="tool-link">访问官网 <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-icon" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                            <i class="fas fa-theater-masks"></i>
+                        </div>
+                        <h3>Playwright</h3>
+                        <p class="tool-desc">微软出品的新一代自动化测试框架，支持多浏览器</p>
+                        <ul class="tool-features">
+                            <li><i class="fas fa-check"></i> 多浏览器引擎</li>
+                            <li><i class="fas fa-check"></i> 自动等待机制</li>
+                            <li><i class="fas fa-check"></i> 网络拦截</li>
+                            <li><i class="fas fa-check"></i> 移动端模拟</li>
+                        </ul>
+                        <div class="tool-tags">
+                            <span class="tag">Web测试</span>
+                            <span class="tag">跨平台</span>
+                        </div>
+                        <a href="https://playwright.dev/" target="_blank" class="tool-link">访问官网 <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- API测试工具 -->
+            <div class="tools-category">
+                <h2><i class="fas fa-network-wired"></i> API接口测试工具</h2>
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <div class="tool-icon" style="background: linear-gradient(135deg, #FF6C37 0%, #FF9068 100%);">
+                            <i class="fas fa-paper-plane"></i>
+                        </div>
+                        <h3>Postman</h3>
+                        <p class="tool-desc">强大的API开发和测试平台，功能丰富易于上手</p>
+                        <ul class="tool-features">
+                            <li><i class="fas fa-check"></i> 可视化界面</li>
+                            <li><i class="fas fa-check"></i> 环境变量管理</li>
+                            <li><i class="fas fa-check"></i> 测试脚本支持</li>
+                            <li><i class="fas fa-check"></i> 团队协作</li>
+                        </ul>
+                        <div class="tool-tags">
+                            <span class="tag">API测试</span>
+                            <span class="tag">免费增值</span>
+                        </div>
+                        <a href="https://www.postman.com/" target="_blank" class="tool-link">访问官网 <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-icon" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>REST Assured</h3>
+                        <p class="tool-desc">Java语言的REST API测试框架，语法简洁优雅</p>
+                        <ul class="tool-features">
+                            <li><i class="fas fa-check"></i> DSL语法</li>
+                            <li><i class="fas fa-check"></i> JSON/XML支持</li>
+                            <li><i class="fas fa-check"></i> 认证支持</li>
+                            <li><i class="fas fa-check"></i> 文件上传</li>
+                        </ul>
+                        <div class="tool-tags">
+                            <span class="tag">API测试</span>
+                            <span class="tag">Java</span>
+                        </div>
+                        <a href="https://rest-assured.io/" target="_blank" class="tool-link">访问官网 <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-icon" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <h3>Requests</h3>
+                        <p class="tool-desc">Python的HTTP库，简单优雅，适合接口自动化测试</p>
+                        <ul class="tool-features">
+                            <li><i class="fas fa-check"></i> 简洁API</li>
+                            <li><i class="fas fa-check"></i> Session管理</li>
+                            <li><i class="fas fa-check"></i> 文件上传下载</li>
+                            <li><i class="fas fa-check"></i> 代理支持</li>
+                        </ul>
+                        <div class="tool-tags">
+                            <span class="tag">API测试</span>
+                            <span class="tag">Python</span>
+                        </div>
+                        <a href="https://requests.readthedocs.io/" target="_blank" class="tool-link">访问官网 <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 性能测试工具 -->
+            <div class="tools-category">
+                <h2><i class="fas fa-tachometer-alt"></i> 性能测试工具</h2>
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <div class="tool-icon" style="background: linear-gradient(135deg, #f77062 0%, #fe5196 100%);">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                        <h3>Apache JMeter</h3>
+                        <p class="tool-desc">开源的性能测试工具，支持多种协议的压力测试</p>
+                        <ul class="tool-features">
+                            <li><i class="fas fa-check"></i> 多协议支持</li>
+                            <li><i class="fas fa-check"></i> 可视化报告</li>
+                            <li><i class="fas fa-check"></i> 分布式测试</li>
+                            <li><i class="fas fa-check"></i> 插件扩展</li>
+                        </ul>
+                        <div class="tool-tags">
+                            <span class="tag">性能测试</span>
+                            <span class="tag">开源</span>
+                        </div>
+                        <a href="https://jmeter.apache.org/" target="_blank" class="tool-link">访问官网 <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-icon" style="background: linear-gradient(135deg, #fccb90 0%, #d57eeb 100%);">
+                            <i class="fas fa-gauge-high"></i>
+                        </div>
+                        <h3>Locust</h3>
+                        <p class="tool-desc">Python编写的现代化负载测试工具，易于扩展</p>
+                        <ul class="tool-features">
+                            <li><i class="fas fa-check"></i> Python编写</li>
+                            <li><i class="fas fa-check"></i> 实时Web UI</li>
+                            <li><i class="fas fa-check"></i> 分布式测试</li>
+                            <li><i class="fas fa-check"></i> 代码即配置</li>
+                        </ul>
+                        <div class="tool-tags">
+                            <span class="tag">性能测试</span>
+                            <span class="tag">Python</span>
+                        </div>
+                        <a href="https://locust.io/" target="_blank" class="tool-link">访问官网 <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-icon" style="background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Gatling</h3>
+                        <p class="tool-desc">基于Scala的高性能负载测试工具，适合DevOps流程</p>
+                        <ul class="tool-features">
+                            <li><i class="fas fa-check"></i> 高性能</li>
+                            <li><i class="fas fa-check"></i> 精美报告</li>
+                            <li><i class="fas fa-check"></i> CI/CD集成</li>
+                            <li><i class="fas fa-check"></i> 录制回放</li>
+                        </ul>
+                        <div class="tool-tags">
+                            <span class="tag">性能测试</span>
+                            <span class="tag">Scala</span>
+                        </div>
+                        <a href="https://gatling.io/" target="_blank" class="tool-link">访问官网 <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 测试管理工具 -->
+            <div class="tools-category">
+                <h2><i class="fas fa-tasks"></i> 测试管理工具</h2>
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <div class="tool-icon" style="background: linear-gradient(135deg, #0052CC 0%, #2684FF 100%);">
+                            <i class="fab fa-jira"></i>
+                        </div>
+                        <h3>JIRA</h3>
+                        <p class="tool-desc">Atlassian出品的项目管理和缺陷跟踪工具</p>
+                        <ul class="tool-features">
+                            <li><i class="fas fa-check"></i> 缺陷管理</li>
+                            <li><i class="fas fa-check"></i> 敏捷看板</li>
+                            <li><i class="fas fa-check"></i> 工作流定制</li>
+                            <li><i class="fas fa-check"></i> 报表分析</li>
+                        </ul>
+                        <div class="tool-tags">
+                            <span class="tag">项目管理</span>
+                            <span class="tag">商业软件</span>
+                        </div>
+                        <a href="https://www.atlassian.com/software/jira" target="_blank" class="tool-link">访问官网 <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-icon" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                            <i class="fas fa-clipboard-check"></i>
+                        </div>
+                        <h3>TestRail</h3>
+                        <p class="tool-desc">专业的测试用例管理和测试计划工具</p>
+                        <ul class="tool-features">
+                            <li><i class="fas fa-check"></i> 用例管理</li>
+                            <li><i class="fas fa-check"></i> 测试计划</li>
+                            <li><i class="fas fa-check"></i> 实时报告</li>
+                            <li><i class="fas fa-check"></i> API集成</li>
+                        </ul>
+                        <div class="tool-tags">
+                            <span class="tag">测试管理</span>
+                            <span class="tag">商业软件</span>
+                        </div>
+                        <a href="https://www.testrail.com/" target="_blank" class="tool-link">访问官网 <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+
+                    <div class="tool-card">
+                        <div class="tool-icon" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);">
+                            <i class="fas fa-list-check"></i>
+                        </div>
+                        <h3>Allure</h3>
+                        <p class="tool-desc">灵活轻量的测试报告框架，支持多种测试框架</p>
+                        <ul class="tool-features">
+                            <li><i class="fas fa-check"></i> 精美报告</li>
+                            <li><i class="fas fa-check"></i> 多框架支持</li>
+                            <li><i class="fas fa-check"></i> 历史趋势</li>
+                            <li><i class="fas fa-check"></i> 附件支持</li>
+                        </ul>
+                        <div class="tool-tags">
+                            <span class="tag">报告</span>
+                            <span class="tag">开源</span>
+                        </div>
+                        <a href="https://docs.qameta.io/allure/" target="_blank" class="tool-link">访问官网 <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-bug"></i> 测试专家</h3>
+                    <p>致力于提供最专业的软件测试知识和资源。</p>
+                </div>
+                <div class="footer-section">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="tutorials.html">测试教程</a></li>
+                        <li><a href="tools.html">测试工具</a></li>
+                        <li><a href="cases.html">案例展示</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 软件测试专家. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>案例展示 - 软件测试专家</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cases.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <i class="fas fa-bug"></i>
+                    <span>测试专家</span>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="tutorials.html">测试教程</a></li>
+                    <li><a href="tools.html">测试工具</a></li>
+                    <li><a href="cases.html" class="active">案例展示</a></li>
+                    <li><a href="blog.html">技术博客</a></li>
+                    <li><a href="about.html">关于我们</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 页面标题 -->
+    <section class="page-header">
+        <div class="container">
+            <h1>案例展示</h1>
+            <p>真实项目测试案例，学习最佳实践</p>
+        </div>
+    </section>
+
+    <!-- 案例展示 -->
+    <section class="cases-section">
+        <div class="container">
+            <div class="cases-grid">
+                <!-- 电商平台测试案例 -->
+                <div class="case-card">
+                    <div class="case-image">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="case-content">
+                        <div class="case-category">电商平台</div>
+                        <h3>大型电商平台自动化测试实战</h3>
+                        <p>实现从用户注册、商品浏览、购物车、下单到支付的完整自动化测试流程，覆盖率达95%。</p>
+                        <div class="case-details">
+                            <div class="detail-item">
+                                <i class="fas fa-tools"></i>
+                                <span>Selenium + Pytest</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-chart-line"></i>
+                                <span>测试覆盖率: 95%</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>执行时间: 30分钟</span>
+                            </div>
+                        </div>
+                        <div class="case-highlights">
+                            <h4>项目亮点：</h4>
+                            <ul>
+                                <li>Page Object模式设计</li>
+                                <li>数据驱动测试</li>
+                                <li>并行执行优化</li>
+                                <li>CI/CD集成</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="case-btn">查看详情</a>
+                    </div>
+                </div>
+
+                <!-- API测试案例 -->
+                <div class="case-card">
+                    <div class="case-image">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="case-content">
+                        <div class="case-category">API测试</div>
+                        <h3>RESTful API自动化测试框架</h3>
+                        <p>构建企业级API自动化测试框架，支持环境切换、数据管理和详细的测试报告。</p>
+                        <div class="case-details">
+                            <div class="detail-item">
+                                <i class="fas fa-tools"></i>
+                                <span>Python + Requests</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-flask"></i>
+                                <span>300+ 测试用例</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>成功率: 98%</span>
+                            </div>
+                        </div>
+                        <div class="case-highlights">
+                            <h4>项目亮点：</h4>
+                            <ul>
+                                <li>统一的测试基类</li>
+                                <li>灵活的断言机制</li>
+                                <li>完善的日志系统</li>
+                                <li>Allure报告集成</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="case-btn">查看详情</a>
+                    </div>
+                </div>
+
+                <!-- 性能测试案例 -->
+                <div class="case-card">
+                    <div class="case-image">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <div class="case-content">
+                        <div class="case-category">性能测试</div>
+                        <h3>金融系统压力测试与优化</h3>
+                        <p>对金融交易系统进行全面的性能测试，发现瓶颈并提出优化方案，TPS提升300%。</p>
+                        <div class="case-details">
+                            <div class="detail-item">
+                                <i class="fas fa-tools"></i>
+                                <span>JMeter + Grafana</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-users"></i>
+                                <span>并发: 10000+</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-rocket"></i>
+                                <span>性能提升: 300%</span>
+                            </div>
+                        </div>
+                        <div class="case-highlights">
+                            <h4>项目亮点：</h4>
+                            <ul>
+                                <li>分布式压测架构</li>
+                                <li>实时性能监控</li>
+                                <li>瓶颈定位分析</li>
+                                <li>优化方案落地</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="case-btn">查看详情</a>
+                    </div>
+                </div>
+
+                <!-- 移动端测试案例 -->
+                <div class="case-card">
+                    <div class="case-image">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="case-content">
+                        <div class="case-category">移动测试</div>
+                        <h3>移动App自动化测试解决方案</h3>
+                        <p>基于Appium构建的移动端自动化测试方案，支持Android和iOS双平台。</p>
+                        <div class="case-details">
+                            <div class="detail-item">
+                                <i class="fas fa-tools"></i>
+                                <span>Appium + Python</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-mobile"></i>
+                                <span>Android + iOS</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-layer-group"></i>
+                                <span>200+ 测试场景</span>
+                            </div>
+                        </div>
+                        <div class="case-highlights">
+                            <h4>项目亮点：</h4>
+                            <ul>
+                                <li>跨平台适配</li>
+                                <li>云真机集成</li>
+                                <li>截图对比</li>
+                                <li>Crash监控</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="case-btn">查看详情</a>
+                    </div>
+                </div>
+
+                <!-- 安全测试案例 -->
+                <div class="case-card">
+                    <div class="case-image">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="case-content">
+                        <div class="case-category">安全测试</div>
+                        <h3>Web应用安全渗透测试</h3>
+                        <p>针对企业Web应用进行全面的安全测试，发现并修复多个高危漏洞。</p>
+                        <div class="case-details">
+                            <div class="detail-item">
+                                <i class="fas fa-tools"></i>
+                                <span>Burp Suite + OWASP ZAP</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-bug"></i>
+                                <span>发现漏洞: 15个</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-check-double"></i>
+                                <span>修复率: 100%</span>
+                            </div>
+                        </div>
+                        <div class="case-highlights">
+                            <h4>项目亮点：</h4>
+                            <ul>
+                                <li>OWASP Top 10检测</li>
+                                <li>SQL注入测试</li>
+                                <li>XSS漏洞扫描</li>
+                                <li>权限绕过测试</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="case-btn">查看详情</a>
+                    </div>
+                </div>
+
+                <!-- 持续集成案例 -->
+                <div class="case-card">
+                    <div class="case-image">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <div class="case-content">
+                        <div class="case-category">CI/CD</div>
+                        <h3>DevOps自动化测试流水线</h3>
+                        <p>构建完整的CI/CD测试流水线，实现代码提交到生产发布的全自动化测试。</p>
+                        <div class="case-details">
+                            <div class="detail-item">
+                                <i class="fas fa-tools"></i>
+                                <span>Jenkins + Docker</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>构建时间: 15分钟</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-rocket"></i>
+                                <span>发布频率: 日均5次</span>
+                            </div>
+                        </div>
+                        <div class="case-highlights">
+                            <h4>项目亮点：</h4>
+                            <ul>
+                                <li>多阶段测试策略</li>
+                                <li>自动化部署</li>
+                                <li>测试报告推送</li>
+                                <li>回滚机制</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="case-btn">查看详情</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-bug"></i> 测试专家</h3>
+                    <p>致力于提供最专业的软件测试知识和资源。</p>
+                </div>
+                <div class="footer-section">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="tutorials.html">测试教程</a></li>
+                        <li><a href="tools.html">测试工具</a></li>
+                        <li><a href="cases.html">案例展示</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 软件测试专家. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
